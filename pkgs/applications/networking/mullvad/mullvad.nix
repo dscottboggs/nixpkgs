@@ -27,7 +27,7 @@ let
 in
 rustPlatform.buildRustPackage rec {
   pname = "mullvad";
-  version = "2024.7";
+  version = "2024.8";
 
   src = fetchFromGitHub {
     owner = "mullvad";
